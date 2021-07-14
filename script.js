@@ -104,12 +104,13 @@ const getWeather = (location, lat, lon) => {
         })
         .catch((error)=>weather.innerText = "날씨를 불러오지 못했습니다.")
 }
-
+/*
 window.addEventListener('load', ()=>{
     navigator.geolocation.getCurrentPosition((pos)=>{
         getWeather("현재 위치", pos.coords.latitude, pos.coords.longitude)
     })
 })
+*/
 
 window.addEventListener('scroll', (e) => {  
   e.preventDefault()
@@ -153,4 +154,6 @@ comment.addEventListener('click', (e)=>{
 
 preloadImages()
 scrollMaps(0)
+/*
 getWeather("Gangneung")
+*/
