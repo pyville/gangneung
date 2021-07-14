@@ -1,0 +1,108 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    height: 800vh;
+    background: black;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  
+  #container {
+    position: relative;
+  }
+  
+  div.top {
+    position: fixed;
+    margin: auto;
+    z-index: 7;
+  }
+
+  div.weather-outer {
+    position: fixed;
+    display: flex;
+    bottom: 2px;
+    right: 2px;
+    background: black;
+    width: 20%;
+    min-width: 100px;
+    max-width: 500px;
+    height: 15%;
+    min-height: 60px;
+    max-height: 300px;
+    border: 3px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 8;
+  }
+
+  div.weather {
+    font-size: 15pt;
+    text-align: center;
+  }
+  
+  #comment {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  div.overlay {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  div.overlay h1 {
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  #text1 {
+    top: 30vh;
+  }
+  
+  #text2 {
+    top: 130vh;
+  }
+  
+  #text3 {
+    top: 230vh;
+  }
+  
+  #text4 {
+    top: 330vh;
+  }
+  
+  #text5 {
+    top: 430vh;
+  }
+  
+  #text6 {
+    top: 530vh;
+  }
+  
+  #text7 {
+    top: 630vh;
+  }
+  
+  #text8 {
+    top: 730vh;
+  }
+  
+  
